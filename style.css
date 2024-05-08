@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: "Source Code Pro", monospace;
+    padding: 0%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+.navbar h2{
+    color:skyblue;
+    font-size: 1.8em;
+}
+.navbar ul
+{
+    display: flex;
+    gap:20%;
+    font-size: 1.6em;
+    list-style-type: none;  
+}
+ul a:link{
+    color:black;
+}
+.container{
+    position: absolute;
+    top:0%;
+    left:0%;
+    bottom: 0%;
+    right: 0%;
+    margin: auto;
+    width: 32%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+    background-color: rgb(223, 152, 244);
+    border:2px solid rgb(41, 5, 72);
+    border-radius: 5px;
+}
+.color
+{
+    color: blue;
+    text-align: center;
+    margin-left: 28%;
+}
+.btn{
+    position: absolute;
+    top:200px;
+    left:0%;
+    bottom: 0%;
+    right: 0%;
+    margin: auto;
+    height: 50px;
+    width: 8em;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background-color: #ff5252;
+        border: 2px solid #000;
+        border-radius: 10px;
+        box-shadow: 5px 5px 0px #000;
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+      
+      .btn:hover {
+        background-color: #fff;
+        color: #ff5252;
+        border: 2px solid #ff5252;
+        box-shadow: 5px 5px 0px #ff5252;
+      }
+
+      .btn:active {
+        background-color: #fcf414;
+        box-shadow: none;
+        transform: translateY(4px);
+      }
